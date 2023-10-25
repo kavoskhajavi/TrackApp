@@ -80,6 +80,10 @@ dependencies {
     // Kotlin Extensions and Coroutines support for Room
     implementation ("androidx.room:room-ktx:2.5.2")
 
+
+    implementation ("androidx.room:room-coroutines:2.1.0-alpha04")
+
+
     // Coroutines
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
@@ -95,8 +99,10 @@ dependencies {
 
     
     // Glide
-    implementation ("com.github.bumptech.glide:glide:4.11.0")
-    kapt ("com.github.bumptech.glide:compiler:4.11.0")
+
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+//    implementation ("com.github.bumptech.glide:glide:4.11.0")
+//    kapt ("com.github.bumptech.glide:compiler:4.11.0")
 
 //    implementation ("com.github.bumptech.glide:glide:4.16.0")
     // Google Maps Location Services

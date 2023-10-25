@@ -11,10 +11,10 @@ import androidx.room.Query
 interface RunDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-     fun insertRun(run: Run)
+     suspend  fun insertRun(run: Run)
 
     @Delete
-     fun deleteRun(run: Run)
+     suspend fun deleteRun(run: Run)
 
     @Query("SELECT * FROM running_table ORDER BY timestamp DESC")
     fun getAllRunsSortedByDate(): LiveData<List<Run>>
