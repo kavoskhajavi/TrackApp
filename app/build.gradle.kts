@@ -72,29 +72,29 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
 
     // Room
-    implementation ("androidx.room:room-runtime:2.5.2")
+    implementation ("androidx.room:room-runtime:2.6.0")
     //noinspection KaptUsageInsteadOfKsp
-    kapt ("androidx.room:room-compiler:2.5.2")
+    kapt ("androidx.room:room-compiler:2.6.0")
 
 
     // Kotlin Extensions and Coroutines support for Room
-    implementation ("androidx.room:room-ktx:2.5.2")
+    implementation ("androidx.room:room-ktx:2.6.0")
 
 
-    implementation ("androidx.room:room-coroutines:2.1.0-alpha04")
+//    implementation ("androidx.room:room-coroutines:2.1.0-alpha04")
 
 
     // Coroutines
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.5")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
 
     // Coroutine Lifecycle Scopes
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
     // Navigation Components
-    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.4")
-    implementation ("androidx.navigation:navigation-ui-ktx:2.7.4")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.7.5")
+    implementation ("androidx.navigation:navigation-ui-ktx:2.7.5")
 
 
     
@@ -107,7 +107,7 @@ dependencies {
 //    implementation ("com.github.bumptech.glide:glide:4.16.0")
     // Google Maps Location Services
     implementation ("com.google.android.gms:play-services-location:21.0.1")
-    implementation ("com.google.android.gms:play-services-maps:18.1.0")
+    implementation ("com.google.android.gms:play-services-maps:18.2.0")
 
     // Dagger Core
 //    implementation ("com.google.dagger:dagger:2.28.3")
