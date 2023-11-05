@@ -39,6 +39,7 @@ import com.google.android.material.snackbar.Snackbar
 
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.Calendar
+import javax.inject.Inject
 import kotlin.math.round
 
 @AndroidEntryPoint
@@ -52,6 +53,8 @@ class TrackingFragment : Fragment() {
     private var curTimeInMillis = 0L
 
     private var menu: Menu? = null
+
+    @set:Inject
     private var weight = 80f
 
     private val binding by lazy { FragmentTrackingBinding.inflate(LayoutInflater.from(requireContext())) }
